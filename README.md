@@ -47,8 +47,8 @@ Send POST requests to `http://localhost:5000/predict` with input JSON.
 
 ```
 no_show_predictor/
-├── data/                    # Dataset files
-├── model/                   # Saved model and preprocessor
+├── requirements.txt         # required modules
+├── eda_modeling.ipynb       # ML Model
 ├── streamlit_app.py         # Streamlit frontend
 ├── flask_api.py             # Flask backend API
 ├── appointments.csv         # Raw data file
